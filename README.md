@@ -36,3 +36,8 @@ Append sPRING path in the path variable of the environment variable
 D:\java\spring-2.7.4
 
 ```
+check the Spring Version
+open cmd 
+```
+spring --version
+```
