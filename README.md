@@ -14,13 +14,25 @@ M2_HOME = D:\java\apache-maven-3.8.6
 
 MAVEN_HOME = D:\java\apache-maven-3.8.6
 ```
-Append Maven path in the path variable in the environment variable
+Append Maven path in the path variable of the environment variable
 
 ```
 D:\java\apache-maven-3.8.6\bin
 ```
-## check the MVN Version
+check the MVN Version
 open cmd 
 ```
 mvn -version
+```
+
+Initializing Spring boot
+Download spring boot and place it in an organized directory and set the Spring Home in the environmental variable
+```
+SPRING_HOME = D:\java\spring-2.7.4
+
+```
+Append sPRING path in the path variable of the environment variable
+```
+D:\java\spring-2.7.4
+
 ```
