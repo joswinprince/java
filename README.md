@@ -19,3 +19,8 @@ Append Maven path in the path variable in the environment variable
 ```
 M2_HOME = D:\java\apache-maven-3.8.6\bin
 ```
+## check the MVN Version
+open cmd 
+```
+mvn version
+```
