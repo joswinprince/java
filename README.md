@@ -1,8 +1,8 @@
 # java
-Initializing the JAVAHOME in Environment variable
+Initializing the JAVA_HOME in Environment variable
 > always give the jdk main path not the bin path
 ```
-JAVAHOME = D:\program files\jdk-17.0.1
+JAVA_HOME = D:\program files\jdk-17.0.1
 ```
 
 ## Maven
@@ -31,7 +31,7 @@ Download spring boot and place it in an organized directory and set the Spring H
 SPRING_HOME = D:\java\spring-2.7.4
 
 ```
-Append sPRING path in the path variable of the environment variable
+Append Spring path in the path variable of the environment variable
 ```
 D:\java\spring-2.7.4
 
