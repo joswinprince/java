@@ -41,3 +41,8 @@ open cmd
 ```
 spring --version
 ```
+
+java class path
+```
+javac -classpath .:mysql-connector-java-8.0.27.jar 
+```
