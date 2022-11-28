@@ -31,3 +31,10 @@ public static void main(String[] args) {
 
 }
 ```
+Implementing Lamdas for greeting message
+```
+	GreetingMessage g2 = (String name)->{
+		System.out.println("Greeting "+name);
+	};
+	g2.greet("Bethan");
+```
