@@ -3,5 +3,10 @@ public class AddTwoNumbers {
         int num1 = 5, num2 = 10, sum;
         sum = num1 + num2;
         System.out.println("Sum of " + num1 + " and " + num2 + " is: " + sum);
+        addc b = add(2,6);
+        system.out.println(b);
     }
+}
+interface addc{
+    int add(int a , int b);
 }
