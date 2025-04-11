@@ -22,7 +22,8 @@ public class EmailValidator {
             "john.doe@example.com",
             "jane@example",
             "invalid-email",
-            "another.email@domain.co"
+            "another.email@domain.co",
+            "fdfd.sf.e@dfd@df.com"
         };
 
         for (String email : emails) {

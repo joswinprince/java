@@ -25,6 +25,18 @@ public class TrainData
 	
     public static void main(String[] args) {
         // Create a nested HashMap to store route costs
+
+        Map<String,String> cat = new HashMap<>();
+        cat.put("cat-1", "persian");
+        cat.put("cat-2", "indian");
+        System.out.println(cat.get("cat-1"));
+        for(Map.Entry<String, String> entry : cat.entrySet()) {
+            System.out.println(entry.getKey() + " : " + entry.getValue());
+        }
+        for(Map.Entry<String,String> entr: cat.entrySet()){
+            System.out.println(entr.getKey() + " : " + entr.getValue());
+        }
+
         Map<String, Map<String, Integer>> routes = new HashMap<>();
 
         // Add some routes with associated costs
